@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.demo.entiy.Product;
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://app-ecommerce-480f0.firebaseapp.com")
 public interface ProductRepository extends JpaRepository<Product,Long> {
 
 	//https://ecommerce-20.herokuapp.com/api/products/search/findByCategoryId?id=2
